@@ -1,0 +1,187 @@
+html{
+
+}
+body{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  background-color: #cccccc;
+}
+
+.container{
+  border-radius: 2px;
+  background-color: #eee;
+  background-size: 50%;
+  height: auto;
+  width: auto;
+  margin: 0px 0px 0px 0px  ;
+  padding: 5px;
+
+}
+
+
+/*Navigation Bar*/
+.navBar{
+  margin: 0px;
+  margin: 0px 10px 0px 35px;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  padding-top: 1px;
+  background-color: #A42419; /*#001156;*/
+  height: 60px;
+  padding-left: 1px;
+  z-index: 2;
+  border-radius: 0px 0px 5px 5px;
+  font-family:sans-serif; /*ProximaNovaA-Bold*/
+}
+
+.fa-user-circle
+{
+  color: white;
+  display: block;
+  color: white;
+  padding: 12.5px;
+  margin-right: 3px;
+}
+
+.navBar-ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+.navBar-ul-li {
+  float: right;
+}
+
+.navBar-ul-li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+
+.navBar-ul-li a:hover{
+  background-color: #5C5C5C99;
+  border-radius: 2.5px;
+}
+.navBar-ul-li a:active{
+  background-color: #FFFFFF;
+}
+
+.navBar-Title{
+  top: 0;
+  position: fixed;
+  margin: 0px 0px 0px 8px;
+  background-color: #4F4F4F;
+  z-index: 3;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 2px 2px #00000099;
+  display: table;
+  padding: 16px 18px 4px 18px ;
+}
+
+.navBar-Title-Link{
+  text-decoration: none;
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*Drobdown*/
+
+.dropdown-Element{
+color: white;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown:hover .dropdown-Element {
+    background-color: #3e8e41;
+  }
+
+/*Footer*/
+.footer{
+  /*Grundeinstellungen Footer*/
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  height: 30px;
+  background-position: 0% 0%;
+
+  display: table;
+  background-color: #A42419;
+  border-radius: 5px 5px 0px 0px;
+  /*left: 0pt;*/
+
+}
+
+.footer p {
+  font-size: 14px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-bottom: px;
+}
+
+.footer p a {
+text-decoration: none;
+color: white;
+}
+
+
+/*Lebenslauf*/
+
+.con-Personalien{
+  float: left;
+  margin: 20px;
+  background-color: #c9c9c9;
+  border: 2px;
+  border-style: solid;
+  padding: 5px;
+  font-size: 20px;
+
+}
+
+.tabel-title{
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 0px 14px;
+
+}
