@@ -1,4 +1,5 @@
-        <hr>
+        <!- -->
+      </div>
         <footer>
           <div class="footer">
             <p>Designet by <a href="lebenslauf.html">Delano Bruggmann</a></p>

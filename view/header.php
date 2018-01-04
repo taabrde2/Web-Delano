@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://use.fontawesome.com/6b62a8a4eb.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript" src="/js/CustomJS.js"></script>
+
+    </script>
     <title><?= $title ?> | D.B</title>
 
     <!-- Bootstrap core CSS -->
@@ -21,27 +24,13 @@
   </head>
   <body>
     <header>
-      <a class="navBar-Title-Link" href="index.html">
-        <div class="navBar-Title">
-          <h3>DLB</h3>
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active" style="color: #f2f2f2;">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" id="Hamburger" onclick="myFunction()">&#9776;</a>
         </div>
-      </a>
-
-      <div class="navBar">
-        <ul class="navBar-ul">
-          <li class="navBar-ul-li dropdown"><i class="fa fa-user-circle fa-2x dropdown-Element "></i>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a></i>
-          </li>
-          <li class="navBar-ul-li"><a href="/Bewerbung/Bewerbung">Bewerbungsschreiben</a></li>
-          <li class="navBar-ul-li"><a href="/Bewerbung/Lebenslauf">Lebenslauf</a></li>
-
-          <!-- <li class="navBar-ul-li"><a href="index.html">Startseite</a></li> -->
-          <!-- <li class="navBar-Title"><a href="index.html">StartseiteTitle</a></li> -->
-        </ul>
-      </div>
     </header>
 
     <div class="container">
